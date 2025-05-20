@@ -1,12 +1,10 @@
-# RALM for Commonsense Question Answering
-
-Please refer to [DRAGIN github](https://github.com/oneal2000/DRAGIN)
+# ReConnect: Retrieval-augmented Knowledge Connection for Commonsense Reasoning
 
 ## Install environment
 
 ```bash
-conda create -n dragin python=3.9
-conda activate dragin
+conda create -n reconnect python=3.9
+conda activate reconnect
 pip install torch==2.1.1
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
