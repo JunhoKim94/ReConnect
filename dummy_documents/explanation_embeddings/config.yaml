@@ -1,0 +1,4 @@
+_target_: goldenretriever.indexers.inmemory.InMemoryDocumentIndex
+metadata_fields: []
+separator: null
+name_or_path: null

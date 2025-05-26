@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0,1 python ./main.py --config /home/user10/ReConnect/config/Llama3-8b-Instruct/ReConnect.json --query_expansion --knowledge_generation --knowledge_aggregation --dataset "id" --retrieve_topk 5 --num_knowledge 3
+CUDA_VISIBLE_DEVICES=0,1 python ./main.py --config /home/user10/ReConnect/config/Llama3-8b-Instruct/ReConnect.json --query_expansion --knowledge_generation --knowledge_aggregation --dataset "ood" --retrieve_topk 5 --num_knowledge 3

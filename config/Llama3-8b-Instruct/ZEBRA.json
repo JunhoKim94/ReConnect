@@ -1,0 +1,19 @@
+{
+    "model_name_or_path": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "method": "zebra",
+    "dataset": "id",
+    "data_path": "../data/numersense",
+    "fewshot": 0,
+    "sample": 3000,
+    "shuffle": false,
+    "generate_max_length": 1,
+    "query_formulation": "direct",
+    "output_dir": "../result/llama3_8b_chat_numersense_zeroshot",
+    "retriever": "DPR_ZEBRA",
+    "es_index_name": "commonsense",
+    "retrieve_topk": 3,
+    "use_counter": true,
+    "load" : false,
+    "zeroshot" : true,
+    "retrieval_model_name_or_path" : "bert-base-uncased"
+}

@@ -1,0 +1,16 @@
+{
+    "model_name_or_path": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "method": "non-retrieval",
+    "dataset": "id",
+    "data_path": "../data/numersense",
+    "fewshot": 0,
+    "sample": 3000,
+    "shuffle": false,
+    "generate_max_length": 1,
+    "query_formulation": "direct",
+    "output_dir": "../result/llama3_8b_chat_csqa2",
+    "es_index_name": "commonsense",
+    "use_counter": true,
+    "load" : false,
+    "zeroshot" : true
+}
