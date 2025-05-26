@@ -1,0 +1,2 @@
+/home/user10/test/ReConnect/data/question_encoder/model.safetensors filter=lfs diff=lfs merge=lfs -text
+/home/user10/test/ReConnect/dummy_documents/explanation_embeddings/embeddings.pt filter=lfs diff=lfs merge=lfs -text
