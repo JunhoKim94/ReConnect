@@ -1,4 +1,4 @@
-# ReConnect: Retrieval-augmented Knowledge Connection for Commonsense Reasoning
+# ReConnect: Retrieval-augmented Knowledge Connection for Commonsense Reasoning (EMNLP 2025)
 
 ## Install environment
 
